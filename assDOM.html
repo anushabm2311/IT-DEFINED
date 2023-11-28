@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+     <head>
+           <meta name='viewport' content="width=device-width,initial-scalr=1.0">
+           <title>Centering a form</title>
+           <style>
+               /*.form-container{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+               }*/
+           </style>
+
+     </head>
+     <body>
+          <!-- <div class="form-container">
+          <form> -->
+          <h2 > Login page </h2>
+         
+         <label>Enter username</label><br>
+         <input type="text" id="var1"><br><br><br>
+         <label>Enter password</label><br>
+         <input type="text" id="var2"><br><br>
+
+
+         <button onclick="loginpage()">SUBMIT</button>
+         <p id="var3"></p>
+         <!-- </form>
+         </div> -->
+          
+         
+     </body>
+     <script>
+          function loginpage(){
+                let n1 = document.getElementById('var1').value
+                let n2 = document.getElementById('var2').value 
+
+                document.getElementById('var3').innerHTML='USERNAME:'+n1+'<br><br>'+'PASSWORD:'+n2
+                console.log("username:"+n1)
+                console.log("password:"+n2)
+
+          }
+
+
+     </script>
+</html>

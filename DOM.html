@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	    
+	    <style>
+	    	div{
+	    		height: 100px;
+	    		width: 100%;
+	    	}
+
+	    	.bg-primary{
+	    		background-color: red;
+	    	}
+	    	.bg-blue{
+	    		background-color: blue;
+	    	}
+	    	
+
+
+
+
+
+
+
+	    </style>
+	</head>
+	<body>
+		<div name ="div_1" id="main1" class="">
+			 
+		</div>
+		<div name ="div_1" id="main2" class="">
+			<p>hello!!</p>
+			 
+		</div>
+		
+
+	</body>
+	<script>
+		let main_div = document.getElementsByTagName('div')
+		console.log(main_div)
+		
+
+
+		main_div[0].classList.add("bg-primary")
+		main_div[1].classList.add("bg-blue")
+
+		main_div[0].innerHTML = '<h1> good day </h1>'
+		console.log(main_div[1].innerHTML)
+		// main_div[1].innerHTML = '<h1> good morning </h1>'
+	</script>
+</html>

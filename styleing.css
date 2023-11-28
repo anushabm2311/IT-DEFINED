@@ -1,0 +1,11 @@
+body{
+	background: white;
+	padding-top: 20vh;	
+}
+form{
+    background: grey;
+}
+.form-container{
+    border-radius: 20px;
+    padding: 60px;
+}
